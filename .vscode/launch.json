@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "server": "https://nav5.cronus.training",
+            "serverInstance": "NAV",
+            "tenant": "",
+            "name":"Launch",
+            "authentication": "UserPassword",
+            "startupObjectId": 50110
+        }
+    ]
+}
