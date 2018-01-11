@@ -11,6 +11,7 @@ codeunit 50140 HttpDownloadMgt
         InStr: InStream;
         OutStr: OutStream;
     begin
+        //Steven's commentaar
         Client.Get(Url,Response);
         Response.Content.ReadAs(InStr);
         TempBlob.Blob.CreateOutStream(OutStr);
